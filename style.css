@@ -31,3 +31,14 @@
  #btn:hover {
      transform: scale(1.05);
  }
+
+ .wrapper{
+  width:280px;
+  height:280px;
+  position:relative;
+}
+
+
+.hidden{
+  display:none !important;
+}
