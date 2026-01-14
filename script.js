@@ -2,7 +2,7 @@ const btn = document.getElementById("btn");
 const loader = document.getElementById("loader");
 const success = document.getElementById("success");
 
-const SUCCESS_DURATION = 1600;
+const SUCCESS_DURATION = 2600;
 
 btn.addEventListener("click", () => {
     
