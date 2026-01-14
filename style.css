@@ -1,0 +1,33 @@
+ body {
+     margin: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background-color: #f8fafc;
+     font-family: sans-serif;
+ }
+
+ .wrapper {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .hidden {
+     display: none !important;
+ }
+
+ dotlottie-wc {
+     transition: transform 0.2s ease;
+ }
+
+ #loader svg {
+     transform: none !important;
+ }
+
+ #btn:hover {
+     transform: scale(1.05);
+ }
